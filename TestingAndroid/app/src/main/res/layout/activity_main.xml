@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/ingrese_el_primer_n_mero" />
+
+    <EditText
+        android:id="@+id/num2_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/ingrese_el_segundo_n_mero" />
+    <RadioGroup
+        android:id="@+id/operacion_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/suma_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"/>
+        <RadioButton
+            android:id="@+id/resta_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resta"/>
+        <RadioButton
+            android:id="@+id/multiplicacion_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicaci_n"/>
+        <RadioButton
+            android:id="@+id/division_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divisi_n"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/calbular_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+    <TextView
+        android:id="@+id/resultado_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+</LinearLayout>

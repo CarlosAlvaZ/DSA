@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestingAndroid</string>
+    <string name="resultado">Resultado</string>
+    <string name="divisi_n">División</string>
+    <string name="multiplicaci_n">Multiplicación</string>
+    <string name="resta">Resta</string>
+    <string name="suma">Suma</string>
+    <string name="ingrese_el_segundo_n_mero">Ingrese el segundo número</string>
+    <string name="ingrese_el_primer_n_mero">Ingrese el primer número</string>
+</resources>
